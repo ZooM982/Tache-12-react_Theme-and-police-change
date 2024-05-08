@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Tache-12-react_Theme-and-police-change/static/css/main.f855e6bc.css",
-    "main.js": "/Tache-12-react_Theme-and-police-change/static/js/main.3141d7c1.js",
+    "main.css": "/Tache-12-react_Theme-and-police-change/static/css/main.22490807.css",
+    "main.js": "/Tache-12-react_Theme-and-police-change/static/js/main.ad63e771.js",
     "static/js/453.2baa6a13.chunk.js": "/Tache-12-react_Theme-and-police-change/static/js/453.2baa6a13.chunk.js",
     "index.html": "/Tache-12-react_Theme-and-police-change/index.html",
-    "main.f855e6bc.css.map": "/Tache-12-react_Theme-and-police-change/static/css/main.f855e6bc.css.map",
-    "main.3141d7c1.js.map": "/Tache-12-react_Theme-and-police-change/static/js/main.3141d7c1.js.map",
+    "main.22490807.css.map": "/Tache-12-react_Theme-and-police-change/static/css/main.22490807.css.map",
+    "main.ad63e771.js.map": "/Tache-12-react_Theme-and-police-change/static/js/main.ad63e771.js.map",
     "453.2baa6a13.chunk.js.map": "/Tache-12-react_Theme-and-police-change/static/js/453.2baa6a13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.3141d7c1.js"
+    "static/css/main.22490807.css",
+    "static/js/main.ad63e771.js"
   ]
 }
