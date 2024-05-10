@@ -1,4 +1,5 @@
 import { createContext, useContext, useState } from 'react';
+import { useThemeContext } from "./ThemeContext"
 
 const ThemeContext = createContext(null);
 
@@ -9,7 +10,6 @@ export default function MyApp() {
   return (
     <ThemeContext.Provider value={theme}>
       <Form />
-      
       <label>
         <input
           type="checkbox"
@@ -20,8 +20,10 @@ export default function MyApp() {
         />
         Passer en mode sombre
       </label>
+
       <br />
       <br />
+
       <label>
         <input
           type="checkbox"
@@ -34,13 +36,18 @@ export default function MyApp() {
       </label>
     </ThemeContext.Provider>
   )
+  
 }
 
+
 function Form({ children }) {
+
+  const { themeCouleur, themePolice } = useThemeContext()
+
   return (
     <Panel title="Changement de theme">
-      <Button>Sign up</Button>
-      <Button>Log in</Button>
+      <Button >Thème: [{themeCouleur}]</Button>
+      <Button>Police: [{themePolice}] </Button>
     </Panel>
   );
 }
@@ -66,3 +73,4 @@ function Button({ children }) {
     
   );
 }
+

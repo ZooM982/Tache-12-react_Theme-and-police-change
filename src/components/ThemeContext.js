@@ -8,12 +8,13 @@ const initialPoliceState  = ["police"]
 const ThemeProvider = ({children}) => {
     const [themeCouleur, setThemeCouleur] = useState(initialCouleurState)
     const [themePolice, setThemePolice] = useState(initialPoliceState)
-
     
     const contextValue ={
         themeCouleur,
-        themePolice
+        themePolice,
     }
+
+    
 
     return (
         <ThemeContext.Provider value={contextValue}> {children} </ThemeContext.Provider>
